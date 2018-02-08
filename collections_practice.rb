@@ -39,11 +39,11 @@ end
 
 
 def sum_array(array)
+  array = []
   sum = 0
   array.each do |i|
     sum += i
   end
-puts sum
 end
 
 
