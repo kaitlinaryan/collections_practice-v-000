@@ -25,7 +25,6 @@ def kesha_maker(array)
     word[2] = "$"
   end
 end
- ###not working
 
 def find_a(string)
   if string.start_with?("a")
@@ -34,10 +33,17 @@ def find_a(string)
     false
   end
 end
+ ###not working
 
 
-def sum_array
+
+
+def sum_array(array)
+  sum = 0
+  array.each do |i|
+    sum += i
+  end
+puts sum
 end
-
 def add_s
 end
