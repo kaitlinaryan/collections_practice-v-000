@@ -42,9 +42,5 @@ end
 
  ###not working
  def find_a(string)
-   if string.start_with("a")
-     return true
-   else
-     false
-   end
+array.select {|word| word.start_with?("a")}
  end
