@@ -42,5 +42,5 @@ end
 
  ###not working
  def find_a(string)
-   arr.select {|word| word.start_with?("a")}
+   arr.select {|word| word[0] == "a"}
  end
