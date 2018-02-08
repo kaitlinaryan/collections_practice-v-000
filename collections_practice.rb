@@ -26,24 +26,20 @@ def kesha_maker(array)
   end
 end
 
-def find_a(string)
-  if string.start_with?("a")
-    return true
-  else
-    false
-  end
-end
- ###not working
-
-
-
-
 def sum_array(array)
   array.inject(0){|sum,item| sum + item}
 end
 
 
+ ###not working
+ def find_a(string)
+   if string.start_with?("a")
+     return true
+   else
+     false
+   end
+ end
 
-
-def add_s
+def add_s(array)
+  array.each_with_index.collect{|element, index| }
 end
