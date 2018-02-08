@@ -33,7 +33,7 @@ end
 
  ###not working
  def find_a(string)
-   if string.start_with?("a")
+   if string.start_with("a")
      return true
    else
      false
