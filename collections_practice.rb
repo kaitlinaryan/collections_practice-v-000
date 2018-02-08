@@ -40,7 +40,7 @@ def add_s(array)
   end
 end
 
- ###not working
+
  def find_a(array)
    array.select {|i| i.start_with?("a")}
  end
