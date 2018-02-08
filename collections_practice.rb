@@ -32,7 +32,9 @@ def find_a(string)
     return true
   else
     false
+  end
 end
+
 
 def sum_array
 end
