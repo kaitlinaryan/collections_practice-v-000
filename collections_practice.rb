@@ -41,6 +41,6 @@ def add_s(array)
 end
 
  ###not working
- def find_a(string)
+ def find_a(array)
    arr.select {|word| word[0] == "a"}
  end
