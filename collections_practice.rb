@@ -39,11 +39,7 @@ end
 
 
 def sum_array(array)
-  array = []
-  sum = 0
-  array.each do |i|
-    sum += i
-  end
+  array.inject(0){|sum,item| sum + item}
 end
 
 
